@@ -1,5 +1,5 @@
 // Initialize Stripe
-const stripe = Stripe('your-publishable-key-here');  // Replace this with your actual Stripe publishable key
+const stripe = Stripe('pk_live_51QB7wKRrS2ty6bSr05VP4XUo7jAZFuJ8VtIxq6YywtXYdKuzUToEB6XTUjtFSQpaUFnhoQduT7L3MiGQ175s1oMM00521eTBnP');  // Replace this with your actual Stripe publishable key
 
 // Create an instance of Elements
 const elements = stripe.elements();
